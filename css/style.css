@@ -238,3 +238,37 @@ img{
     top: -25px;
     right: -25px;
 }
+
+.footer{
+    background: black;
+    padding: 25px 15px;
+}
+
+.footer__container-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link-user{
+    text-decoration: none;
+    color: #00623D;
+    font-size: 20px;
+}
+
+.footer__container-social i{
+    color: #00623D;
+    font-size: 22px;
+}
+
+.footer__container-social{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link-contact{
+    text-decoration: none;
+    color: #08ad6e;
+}

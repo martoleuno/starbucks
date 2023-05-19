@@ -160,3 +160,81 @@ img{
     background: yellow;
     border: 1px solid yellow;
 }
+
+.cards__card{
+    background: #00623D;
+    margin-top: 45px;
+    color: #fff;
+    position: relative;
+    width: 85%;
+}
+
+.cards{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__card-img{
+    width: 100%;
+}
+
+.cards__card-title span{
+    color: yellow;
+}
+
+.cards__card-containter-text{
+    padding: 25px 15px;
+}
+
+.cards__card-description{
+    font-size: 14px;
+    margin: 7.5px 0px 15px;
+}
+
+.cards__card-btn{
+    background: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 120px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 5px 30px;
+    transition: all 1s; 
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.cards__card-btn:hover{
+    background: yellow;
+    border: 1px solid yellow;
+}
+
+.cards__container-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards__container-btn a{
+    width: 100%;
+    margin: 7.5px 0 0;
+    text-align: center;
+}
+
+.cards__card-circle{
+    background: yellow;
+    width: 65px;
+    height: 65px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}

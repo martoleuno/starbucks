@@ -77,3 +77,17 @@ img{
     display: flex;
     flex-direction: column;
 }
+
+.galeria{
+    background: #00623D;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria__img{
+    width: 85%;
+    margin-top: 15px;
+}

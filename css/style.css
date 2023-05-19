@@ -91,3 +91,72 @@ img{
     width: 85%;
     margin-top: 15px;
 }
+
+.contact{
+    background: #0c0f0f;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__title{
+    color: #00623D;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contact__form{
+    background: #00623D;
+    padding: 15px;
+    color: #fff;
+    width: 280px;
+
+}
+
+.contact__input label{
+    font-size: 14px;
+}
+
+.contact__input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.contact__input input::placeholder,
+.contact__input textarea::placeholder{
+    font-size: 12px;
+    color: #00623D;
+    font-weight: bolder;
+}
+
+.contact__input input,
+.contact__input textarea{
+    padding: 5px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.contact__input input:focus,
+.contact__input textarea:focus{
+    background: black;
+}
+
+.contact__btn{
+    background: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 45%;
+    margin-top: 15px;
+    border-radius: 7px;
+    padding: 4px;
+    transition: all 1s;
+}
+
+.contact__btn:hover{
+    background: yellow;
+    border: 1px solid yellow;
+}
